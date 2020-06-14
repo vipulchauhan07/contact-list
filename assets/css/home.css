@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+
+/* .contacts-list-container{
+    display: flex;
+    align-items: center;
+} */
+#contacts-list-container ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 20px; */
+    width: 400px;
+    
+}
+.contact .details{
+    /* height: 20px; */
+    /* width: 400px; */
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: space-between;
+   width: 90%;
+}
+ .contact .delete-button{
+     width: 10%;
+     text-align: center;
+     margin-top: 5px;
+ }
+
+ .contact .delete-button a{
+     color: white;
+     background-color: red;
+ }
+
+.contact p{
+    margin: 5px 0;
+}
+
+.contact:hover{
+    box-shadow: 5px 10px 18px #888888;
+    /* text-shadow: 2px 2px 5px rgb(255, 0, 234); */
+    background-color: #888888;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+input {
+    border-top: hidden;
+    border-left: none;
+    border-bottom: 2px solid black;
+    padding: 2px;
+}
+
+button {
+    background-color: lightseagreen;
+    padding: 5px;
+    font-weight: 600        ;
+}
